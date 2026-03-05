@@ -2,8 +2,8 @@ name: Generate GitHub Snake
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Kjører daglig
-  workflow_dispatch:     # Kan også kjøre manuelt
+    - cron: '0 0 * * *'  # oppdater daglig
+  workflow_dispatch:
 
 jobs:
   build:
@@ -22,7 +22,7 @@ jobs:
       - name: Commit & Push Snake
         run: |
           git config --global user.name "${{ github.repository_owner }}"
-          git config --global user.email "your-email@example.com"
+          git config --global user.email "dilbrinha@gmail.com"
           git add dist/*.svg
           git commit -m "Update Snake"
           git push
