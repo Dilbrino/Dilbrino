@@ -91,11 +91,11 @@ I'm Dilbrin<br><br>
 <h3 align="left">🔥 My GitHub Stats</h3>
 
 <div align="center">
-<img src="https://streak-stats.demolab.com?user=Dilbrino&locale=en&mode=daily&theme=dark" /></div>
-
-<img src="https://raw.githubusercontent.com/Dilbrino/Dilbrino/output/snake.svg" alt="Snake animation" />
-
-###
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
+  <img alt="github-snake" src="dist/github-snake.svg" />
+</picture>
 
 <div align="left">
   <a href="https://www.linkedin.com/in/Dilbrin/">
