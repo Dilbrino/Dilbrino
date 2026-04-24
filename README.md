@@ -29,7 +29,7 @@
 
 <p align="left">
 I'm Dilbrin<br><br>
-- 🎓 I'm a recent graduate in IT / Software Development.<br>
+- 🎓 IT / Software Development.<br>
 - 🔭 Currently working on personal projects and improving my skills in APIs and AI.<br>
 - ⚡ In my free time, I enjoy building apps, exploring new technologies, and contributing to open source.
 </p>
